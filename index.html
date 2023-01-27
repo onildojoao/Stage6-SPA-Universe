@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SPA Universe</title>
+  </head>
+  <body>
+    <img
+      class="bg-image"
+      src="./assets/mountains-universe-1.png"
+      alt="Imagem de uma constelação"
+    />
+    <nav>
+      <ul>
+        <img src="./assets/Vector.svg" alt="Ícone de uma galáxia em branco" />
+        <li class="selected" id="homeLink">
+          <a href="/home" onclick="route()">Home</a>
+        </li>
+        <li class="normal" id="universeLink">
+          <a href="/universe" onclick="route()">O Universo</a>
+        </li>
+        <li class="normal" id="explorationLink">
+          <a href="/exploration" onclick="route()">Exploração</a>
+        </li>
+      </ul>
+
+      <div class="app"></div>
+
+      <script src="./js/index.js" type="module"></script>
+    </nav>
+  </body>
+</html>

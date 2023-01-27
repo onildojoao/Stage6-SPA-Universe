@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*   --bg-home: url("./assets/mountains-universe-1.png");
+  --bg-universe: url("./assets/mountains-universe-2.png");
+  --bg-exploration: url("./assets/mountains-universe-3.png"); */
+
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
+
+nav {
+  margin-top: 5rem;
+  margin-left: 7.2rem;
+  height: 8rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  list-style: none;
+}
+
+ul li {
+  line-height: 2.2rem;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: 700;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+}
+
+button {
+  width: 19.5rem;
+  height: 4.8rem;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin: 29.4rem auto;
+
+  align-items: center;
+}
+
+.universe-content {
+  margin-top: 6.3rem;
+  width: 64.8rem;
+  height: 20.3rem;
+}
+
+.exploration-content {
+  margin-top: 6.3rem;
+  width: 64.8rem;
+  height: 17.4rem;
+}
