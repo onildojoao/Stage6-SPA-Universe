@@ -28,17 +28,6 @@ class Router {
       })
   }
 
-  /* toogleText(element) {
-    this.resetToggleText()
-    element.classList.toggle("selected")
-  }
-
-  resetToggleText() {
-    const menuArray = document.querySelectorAll("li")
-    for (const itemArray of menuArray) {
-      itemArray.classList.remove("selected")
-    }
-  } */
 }
 
 export default Router
